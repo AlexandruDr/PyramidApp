@@ -15,20 +15,29 @@
             display: inline-block;
             height: 20px;
   width: 20px;
-  background-color: red;
+  background-color: darkred;
             margin: 1px;
         }
     </style>
   </head>
   <body>
     <h1>Mario 2</h1>
-    <h3>Behold this wonderful pyramid:</h3>
+      
+      <input type="range" min="1" max="28" value="7" id="myRange">
+      <br>
+      <output id="output"></output>
+      <br>
+      <br>
+      
     <div id="pyramid">
       <!-- Our pyramid will go inside here -->
       <div id="construction">
         <p>Uh oh! the pyramid is still under construction.</p>
         <p>Check back again soon... our developers are hard at wrk as we speak!</p>
       </div>
+        
+        
+        
     </div>
     <script src="PyramidDOM.js"></script>
   </body>
